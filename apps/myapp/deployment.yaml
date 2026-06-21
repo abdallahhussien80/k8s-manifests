@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: abdo1993/gitops-app:20260621-164503
+        image: abdo1993/gitops-app:20260622-011737
         ports:
         - containerPort: 8080
         env:
@@ -42,3 +42,4 @@ spec:
             port: 8080
           initialDelaySeconds: 20
           periodSeconds: 5
+
